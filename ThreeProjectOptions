@@ -1,0 +1,36 @@
+February 6th, 2017
+
+Three Capstone Ideas
+
+1. USA Reservoir System under changing weather patterns
+Investigation: 
+Climate models predict many spatial changes in annual precipitation and evaporation potential within the US. When significant changes occur, our reservoir system may become out of date simply due to dam placement. If catchment no longer matches supply within a watershed, many communities may be facing induced drought conditions from an absence of stored water.
+Predictive Model: 
+A. Determine when our current system will lead to extend drought by state. 
+B. Predict best placement of dams in the next 20 years and in the next 100 years.
+Data: 
+A.	Water supply forecasts https://www.wcc.nrcs.usda.gov/wsf/wsf.html 
+B.	date,maximum temp, minimum temp, average temp, depart. from normal, average dew point, average wet bulb, heating degree days, cooling degree days, weather, snow/ice depth, snow/ice water equivalent, snowfall precipitation, precipitation water equiv., average station pressure, average sea level pressure, resultant wind speed, resultant direction, average wind speed, max peak wind speed, max peak wind direction, max 2-min wind speed, max 2-min wind direction, date
+ ftp://ftp.ncdc.noaa.gov/pub/data/lcd/ 
+C.	past weather data: modelled1979-2014
+https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-regional-reanalysis-narr
+as separate files: https://nomads.ncdc.noaa.gov/data/narr/ 
+D.	Global Climate prediction (longer timescale than weather) 1901-2300
+https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/climate-prediction 
+
+2. Fast-casual dining success
+Investigation: What factors lead to the success or failure of dinning establishments in the burgeoning fast-casual genre. Many man-hours are spent determining marketing schemes, budgets, interior design, but what area of development is the most important in building a new fast-casual restaurant brand?
+Predictive Model: 
+A. Predict success or failure of fast-casual restaurants based on business proposals
+Data: 
+A.Yelp?
+
+3. Predicting bill passage in US Congress
+Investigation: 
+In order to get policy through a congress that represents divided stakeholder groups, our congressional leaders must garner support for bills on both sides of the aisle.. The process involves negotiations, bargaining, and conciliatory articles within the bill to further both side’s interests. However, what if there was a way to determine the likelihood of a bill passing, before bringing it to the floor. What If basic metrics could explain a bills ability to pass or fail? Knowledge and assessment of each bill on these competencies would allow congress to be more efficient before bringing a bill to the floor, and more effective at getting it passed once they do. 
+Predictive Model: 
+Predict which bills, currently on the floor, will pass or fail
+Data:
+A.	Bill data 2001-current https://propublica.github.io/congress-api-docs/#congress-api-documentation 
+B.	Bill data from source, very clunky https://www.gpo.gov/fdsys/bulkdata/ 
+C.	Legislature information https://github.com/unitedstates/congress-legislators and https://www.govtrack.us/developers/data 
